@@ -7,7 +7,7 @@ public class Laptop implements Comparable <Laptop> {
     public int getPrice() {
         return price;
     }
- 
+ //comment
     public void setPrice(int price) throws LaptopExe {
         if (price < 0) {
             throw new LaptopExe("Invalid price!");
