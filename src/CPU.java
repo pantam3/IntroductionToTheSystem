@@ -7,7 +7,7 @@ public class CPU {
         this.setCores(cores);
         this.setWorkFrequency(workFrequency);
     }
- 
+ //comment
     @Override
     public String toString() {
         return "CPU{" +
